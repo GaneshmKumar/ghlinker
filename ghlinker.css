@@ -2,61 +2,46 @@
 * @Author: GaNeShKuMaRm
 * @Date:   2017-04-22 15:33:09
 * @Last Modified by:   GaNeShKuMaRm
-* @Last Modified time: 2017-04-22 15:42:00
+* @Last Modified time: 2017-04-26 15:21:45
 */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
-.ghlink-wrapper {
-    text-align: center;
-    margin: 20px 20px;
-    width: 250px;
-    height: 400px;
-    background-color: #19bd9b;
-    border-radius: 10px;
-    box-shadow: 0 0 5px #212121;
-}
 
-.ghlink-basic-wrapper {
-    padding-top: 15px;
-    padding-bottom: 20px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    background-color: #212121;
+.gh-user {
+    margin: 20px auto;
 }
-
-.ghlink-avatar {
-    border: solid 4px #616161;
-    width: 100px;
-    height: 100px;
+#gh-main {
     margin: 0px auto;
+    display: block;
 }
 
-.ghlink-name {
-    font-family: 'Montserrat';
-    color: #fff;
+.gh-nav
+{
+    text-align: right;
+    background: black;
+    box-shadow: 0 0 9px #212121;
 }
 
-.ghlink-username {
-    font-family: monospace;
-    color: grey;
-    text-transform: lowercase;
-}
-
-.fa-external-link {
-    margin-right: 15px;
-    color: #fff;
-}
-
-.ghlink-bio {
-    padding-top: 10px;
-    color: #212121;
-    font-family: arial;
-}
-
-.ghlink-blog, .ghlink-mail {
+.gh-nav i {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-size: 20px;
-    color: #fff;
-    border: solid 1px #fff;
-    padding: 10px;
-    margin: 5px;
-    border-radius: 5px;
+    color: #414141;
 }
+
+.gh-nav i:hover {
+    background-color: #202020;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+
+.gh-username {
+    color: #818181;
+    font-size: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-family: 'Montserrat';
+}
+
