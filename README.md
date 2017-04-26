@@ -14,3 +14,5 @@ Github profile linker
 * Example
   `$.link('ganeshmkumar');`
   
+# Note
+No need to link `index.html` and `script.js` to your code, since they were used for testing
