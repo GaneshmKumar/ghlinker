@@ -12,5 +12,5 @@ Github profile linker
 * you can import the profile by calling the function
   `$.link(<github_username>);`
 * Example
-  `$.link('ganeshmkumar');
+  `$.link('ganeshmkumar');`
   
